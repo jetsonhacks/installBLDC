@@ -12,6 +12,7 @@ cd bldc-tool
 echo "Building bldc-tool from source"
 qmake -qt=qt5
 make clean && make
+cd $ROOT
 git clone https://github.com/mit-racecar/hardware.git
 echo "You should now be able to run BLDC_Tool from the ~/bldc-tool directory"
 echo "The VESC firmware is in ~/bldc-tool/firmwares"
