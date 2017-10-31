@@ -7,7 +7,7 @@ The VESC is an open source hardware and software brushless motor controller.
 Running the install script builds the bldc-tool, a Qt Gui to interact with the BLDC controller.
 Before building the tool, the required prerequisites are installed. Next the bldc-tool is compiled from source.
 
-Note that this is the tool that can configure and load firmware on the VESC, not the actual firmware that runs the on the VESC. The firmware is in a separate repository. See: https://github.com/vedderb/bldc
+Note that this is the tool that can configure and load firmware on the VESC, not the actual firmware that runs the on the VESC. The firmware is in a separate repository. See: https://github.com/vedderb/bldc-tool
 
 Compiled versions of the firmware are contained in the bldc-tool repository in the 'firmwares' directory.
 
